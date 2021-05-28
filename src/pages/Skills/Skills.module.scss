@@ -1,0 +1,72 @@
+@import '../../assets/scss/styles.module.scss';
+
+.skills-section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   font-size: 2rem;
+
+   h2 {
+      text-align: center;
+      font-size: 3rem;
+   }
+
+   @include respond(phone) {
+      height: 140rem;
+      overflow-y: auto;
+   }
+}
+
+.skills {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 3rem;
+
+   @include respond(phone) {
+      margin: 2rem;
+      height: 135rem;
+      grid-template-columns: repeat(1, 1fr);
+      overflow-y: auto;
+      z-index: -1;
+   }
+
+   & ul li svg {
+      height: 8rem;
+      width: 8rem;
+
+      @include respond(phone) {
+         height: 7rem;
+         width: 7rem;
+      }
+   }
+
+   &__left {
+      //
+   }
+   &__right {
+      margin-bottom: 10rem;
+   }
+}
+
+.list {
+   list-style: none;
+   margin: 2rem 3rem;
+   padding: 2rem 3rem;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 3rem;
+
+   @include respond(phone) {
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   &__item {
+      text-transform: uppercase;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+}

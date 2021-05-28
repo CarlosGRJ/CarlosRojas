@@ -1,0 +1,93 @@
+@import '../../../assets/scss/styles.module.scss';
+
+.socialSide {
+   position: fixed;
+   height: 25rem;
+   width: 3rem;
+   padding: 1rem;
+   margin-right: 0rem;
+   top: 20%;
+   right: -17rem;
+
+   z-index: 1000;
+
+   & &__Linke:hover {
+      position: relative;
+      left: -30rem;
+      margin-right: 10rem;
+      box-shadow: 0px 0px 1.5rem 4px rgb(10, 102, 194);
+   }
+   & &__Google:hover {
+      position: relative;
+      left: -30rem;
+      margin-right: 10rem;
+      box-shadow: 0px 0px 1.5rem 4px rgb(197, 33, 31);
+   }
+   & &__Github:hover {
+      position: relative;
+      left: -30rem;
+      margin-right: 10rem;
+      box-shadow: 0px 0px 1.5rem 4px rgb(36, 41, 46);
+   }
+   & &__Resume:hover {
+      position: relative;
+      left: -30rem;
+      margin-right: 10rem;
+      box-shadow: 0px 0px 1.5rem 4px rgb(44, 151, 74);
+   }
+
+   &-link {
+      text-decoration: none;
+      vertical-align: middle;
+      // text-align: center;
+      line-height: 3;
+
+      & p {
+         display: flex;
+         align-items: center;
+         justify-content: start;
+         position: relative;
+         font-size: 1.5rem;
+         // right: 10px;
+         color: white;
+
+         & span {
+            font-size: 2rem;
+         }
+
+         & i {
+            position: relative;
+            // right: 2rem;
+            font-size: 3.5rem;
+            margin-inline: 2rem;
+         }
+      }
+   }
+
+   &__Linke p {
+      background-color: $color-linkedin;
+   }
+
+   &__Google p {
+      background-color: $color-google;
+   }
+   &__Github p {
+      background-color: $color-github;
+   }
+   &__Resume p {
+      background-color: $color-resume;
+   }
+
+   & .social {
+      position: relative;
+      left: -21rem;
+      width: 23rem;
+      margin-right: -20rem;
+      padding: 0;
+      display: inline-table;
+      height: 0px;
+      background-color: rgba(128, 128, 128, 0.73);
+      box-shadow: 0px 0px 6px 0px #3e3d3d;
+      transition: 0.3s all;
+   }
+}
