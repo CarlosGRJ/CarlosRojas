@@ -43,7 +43,7 @@ export const MyNavbar = () => {
                </a>
             </li>
             <li className={classes.nav__item}>
-               <Link to='/' className={classes.nav__link}>
+               <Link to='/CarlosRojas/' className={classes.nav__link}>
                   <IconHome className={classes['nav__link-icon']} />
                   <span className={classes['link-text']}>Home</span>
                </Link>
