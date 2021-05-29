@@ -9,7 +9,9 @@
    // background-color: brown;
 
    @include respond(phone) {
-      height: 110rem;
+      height: 96rem;
+      margin-bottom: 4rem;
+      // background-color: orange;
    }
 
    overflow-y: hidden;
@@ -21,7 +23,8 @@
 
       @include respond(phone) {
          // margin-top: 5rem;
-         margin-bottom: 4rem;
+         margin-bottom: 0;
+         // background-color: orangered;
       }
    }
 
@@ -39,6 +42,10 @@
          grid-template-rows: repeat(2, 2fr);
          grid-template-columns: repeat(1, 1fr);
          margin-bottom: 5rem;
+         width: 90%;
+         height: 78rem;
+         // height: auto;
+         // background-color: royalblue;
       }
 
       &-img {
@@ -51,9 +58,12 @@
          height: auto;
 
          @include respond(phone) {
-            // width: 40rem;
-            width: auto;
-            margin-bottom: 5rem;
+            // background-color: rgba(250, 128, 114, 0.603);
+            // width: 25rem;
+            // width: auto;
+            // margin-bottom: -25rem;
+            width: 100%;
+            height: 31rem;
          }
 
          & img {
@@ -65,6 +75,7 @@
 
             @include respond(phone) {
                // max-width: 60%;
+               width: 20rem;
             }
          }
       }
@@ -76,7 +87,10 @@
          max-width: 100%;
          // height: auto;
          @include respond(phone) {
-            // background-color: orange;
+            // background-color: rgba(192, 192, 192, 0.582);
+            // max-height: 50rem;
+            height: 47rem;
+            // overflow-y: auto;
          }
       }
    }
