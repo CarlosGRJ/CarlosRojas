@@ -11,7 +11,7 @@
    &:hover {
       width: 18rem;
 
-      @include respond(phone) {
+      @include respond(tab-port) {
          width: 100vw;
       }
    }
@@ -35,7 +35,7 @@
       &:last-child {
          margin-top: auto;
       }
-      @include respond(phone) {
+      @include respond(tab-port) {
          &:last-child {
             margin-top: 0;
          }
@@ -75,7 +75,7 @@
 
 .nav:hover .link-text {
    display: block;
-   @include respond(phone) {
+   @include respond(tab-port) {
       display: none;
    }
 }
@@ -114,7 +114,7 @@
 }
 
 /* Small screens */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
    .nav {
       bottom: 0;
       width: 100vw;

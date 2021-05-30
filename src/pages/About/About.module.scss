@@ -8,7 +8,7 @@
    height: 100vh;
    // background-color: brown;
 
-   @include respond(phone) {
+   @include respond(tab-port) {
       height: 96rem;
       margin-bottom: 4rem;
       // background-color: orange;
@@ -21,7 +21,7 @@
       font-size: 4rem;
       margin-bottom: 4rem;
 
-      @include respond(phone) {
+      @include respond(tab-port) {
          // margin-top: 5rem;
          margin-bottom: 0;
          // background-color: orangered;
@@ -37,7 +37,7 @@
       // background-color: cadetblue;
       grid-template-columns: repeat(2, 1fr);
 
-      @include respond(phone) {
+      @include respond(tab-port) {
          padding: 0;
          grid-template-rows: repeat(2, 2fr);
          grid-template-columns: repeat(1, 1fr);
@@ -57,7 +57,7 @@
          margin: 0;
          height: auto;
 
-         @include respond(phone) {
+         @include respond(tab-port) {
             // background-color: rgba(250, 128, 114, 0.603);
             // width: 25rem;
             // width: auto;
@@ -73,7 +73,7 @@
             border-radius: 0.25rem;
             width: 60%;
 
-            @include respond(phone) {
+            @include respond(tab-port) {
                // max-width: 60%;
                width: 20rem;
             }
@@ -86,7 +86,7 @@
          font-weight: 500;
          max-width: 100%;
          // height: auto;
-         @include respond(phone) {
+         @include respond(tab-port) {
             // background-color: rgba(192, 192, 192, 0.582);
             // max-height: 50rem;
             height: 47rem;

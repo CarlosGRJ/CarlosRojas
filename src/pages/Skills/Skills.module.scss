@@ -13,7 +13,7 @@
       font-size: 3rem;
    }
 
-   @include respond(phone) {
+   @include respond(tab-port) {
       height: 140rem;
       overflow-y: auto;
    }
@@ -24,7 +24,7 @@
    grid-template-columns: repeat(2, 1fr);
    grid-gap: 3rem;
 
-   @include respond(phone) {
+   @include respond(tab-port) {
       margin: 2rem;
       height: 135rem;
       grid-template-columns: repeat(1, 1fr);
