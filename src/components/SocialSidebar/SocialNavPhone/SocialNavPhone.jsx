@@ -11,7 +11,7 @@ export const SocialNavPhone = () => {
       <Fab
          event={'click'}
          mainButtonStyles={{
-            backgroundColor: '#ec7819',
+            backgroundColor: '#ec7819c2',
          }}
          style={{
             bottom: '8rem',

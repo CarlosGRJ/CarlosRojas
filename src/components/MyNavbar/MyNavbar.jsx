@@ -43,20 +43,20 @@ export const MyNavbar = () => {
                </a>
             </li>
             <li className={classes.nav__item}>
-               <Link to='/CarlosRojas/' className={classes.nav__link}>
+               <Link to='/home' className={classes.nav__link}>
                   <IconHome className={classes['nav__link-icon']} />
                   <span className={classes['link-text']}>Home</span>
                </Link>
             </li>
             <li className={classes.nav__item}>
-               <Link to='/CarlosRojas/about' className={classes.nav__link}>
+               <Link to='/about' className={classes.nav__link}>
                   <IconAbout />
                   <span className={classes['link-text']}>About</span>
                </Link>
             </li>
 
             <li className={classes.nav__item}>
-               <Link to='/CarlosRojas/skills' className={classes.nav__link}>
+               <Link to='/skills' className={classes.nav__link}>
                   <IconSkills />
                   <span className={classes['link-text']}>Skills</span>
                </Link>
@@ -70,14 +70,14 @@ export const MyNavbar = () => {
             </li> */}
 
             <li className={classes.nav__item}>
-               <Link to='/CarlosRojas/projects' className={classes.nav__link}>
+               <Link to='/projects' className={classes.nav__link}>
                   <IconProjects />
                   <span className={classes['link-text']}>Projects</span>
                </Link>
             </li>
 
             <li className={classes.nav__item} id='themeButton'>
-               <Link to='/CarlosRojas/contact' className={classes.nav__link}>
+               <Link to='/contact' className={classes.nav__link}>
                   <IconContact />
                   <span className={classes['link-text']}>Contact me</span>
                </Link>

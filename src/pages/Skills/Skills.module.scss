@@ -14,14 +14,17 @@
    }
 
    @include respond(tab-port) {
-      height: 110rem;
+      // height: 110rem;
+      height: 89vh;
       overflow-y: auto;
+      // margin: 1rem 1rem;
+      // background-color: purple;
    }
    
-   @include respond(phone) {
-      height: 150rem;
-      overflow-y: auto;
-   }
+   // @include respond(phone) {
+   //    height: 150rem;
+   //    overflow-y: auto;
+   // }
 }
 
 .skills {
@@ -31,16 +34,18 @@
 
    @include respond(tab-port) {
       // margin: 2rem;
-      height: 95rem;
+      padding: 1rem 0;
+      height: 90vh;
       grid-template-columns: repeat(1, 1fr);
-      overflow-y: auto;
-      z-index: -1;
+      overflow-y: scroll;
+      // z-index: -1;
+      // background-color: rgb(107, 24, 24);
    }
 
-   @include respond(phone) {
-      height: 135rem;
-      margin-bottom: 3rem;
-   }
+   // @include respond(phone) {
+   //    height: 135rem;
+   //    margin-bottom: 3rem;
+   // }
 
    & ul li svg {
       height: 8rem;
@@ -56,7 +61,7 @@
       //
    }
    &__right {
-      margin-bottom: 10rem;
+      // margin-bottom: 10rem;
    }
 }
 

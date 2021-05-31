@@ -8,10 +8,12 @@ export const About = () => {
       <div className={`${classes.about}  animate__animated animate__fadeIn`}>
          <h2>About Me</h2>
          <div className={classes.about__content}>
-            <div className={`${classes['about__content-img']}  animate__animated animate__fadeInLeft`}>
+            <div
+               className={`${classes['about__content-img']}  animate__animated animate__fadeInLeft`}>
                <img src={Photo} alt='Me' />
             </div>
-            <div className={`${classes['about__content-p']}  animate__animated animate__fadeInRight`}>
+            <div
+               className={`${classes['about__content-p']}  animate__animated animate__fadeInRight`}>
                <p>
                   Hi there! I am <strong>&nbsp;Carlos Rojas</strong>
                   <br />A passionate programmer, born and brought up in Mexico.

@@ -24,11 +24,11 @@ const App = () => {
             <SocialSidebar />
          </ViewportProvider>
          <Switch>
-            <Route exact path='/CarlosRojas/' component={Home} />
-            <Route exact path='/CarlosRojas/about' component={About} />
-            <Route exact path='/CarlosRojas/skills' component={Skills} />
-            <Route exact path='/CarlosRojas/projects' component={Projects} />
-            <Route exact path='/CarlosRojas/contact' component={Contact} />
+            <Route exact path='/home' component={Home} />
+            <Route exact path='/about' component={About} />
+            <Route exact path='/skills' component={Skills} />
+            <Route exact path='/projects' component={Projects} />
+            <Route exact path='/contact' component={Contact} />
          </Switch>
       </Router>
    );

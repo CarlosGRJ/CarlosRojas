@@ -1,29 +1,25 @@
 @import '../../assets/scss/styles.module.scss';
 
 .projects {
-   // display: flex;
-   // justify-content: center;
-   // align-items: center;
    height: 100vh;
-   // padding: 5rem;
-   // padding-right: 8rem;
    color: #2f2f2f;
+   padding-inline: 10rem;
+
+   @include respond(phone) {
+      padding-inline: 8rem;
+      height: 90vh;
+      overflow: hidden;
+      overflow-y: auto;
+   } 
 }
 
-.workButton {
-   background-color: $color-primary;
+.title {
+   font-size: 1.7rem;
+   margin-bottom: 1rem;
 }
 
-.workButton:hover {
-   background-color: #0ac593;
-}
-
-.date {
-   color: #fff;
-}
-
-#description {
-   margin: 1.5em 0 2em 0;
+.buttons {
+   display: flex;
 }
 
 .buttonEx {
@@ -31,4 +27,54 @@
    padding: 0.5em 1em;
    border-radius: 5px;
    color: white;
+   &:not(:first-child) {
+      margin-left: 2rem;
+   }
 }
+
+.viewButton {
+   font-size: 1.5rem;
+   background-color: $color-primary;
+}
+
+.viewButton:hover {
+   background-color: $color-primary-light;
+}
+
+.repButton {
+   font-size: 1.5rem;
+   background-color: rgba(36, 41, 46, 0.74);
+   // margin-left: 2rem;
+}
+.repButton:hover {
+   background-color: rgba(36, 41, 46, 0.651);
+}
+
+.date {
+   // background-color: palegoldenrod;
+   color: #fff;
+   font-size: 4rem;
+}
+
+#description {
+   margin: 0.5rem 0 3rem 0;
+   // width: 25rem;
+   font-size: 1.4rem;
+}
+
+.image {
+   width: 95%;
+}
+
+.subtitle {
+   font-size: 1.5rem;
+}
+
+.list {
+   // background-color: orchid;
+   &__item {
+      margin-left: 2rem;      
+   }
+}
+
+
