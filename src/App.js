@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -16,7 +16,7 @@ import { ViewportProvider } from './hooks/useViewport';
 
 const App = () => {
    return (
-      <Router>
+      <Router basename="/CarlosRojas">
          <ToastContainer />
          <MyNavbar />
          <Background />
@@ -24,11 +24,12 @@ const App = () => {
             <SocialSidebar />
          </ViewportProvider>
          <Switch>
-            <Route exact path='/home' component={Home} />
+            <Route exact path='/' component={Home} />
             <Route exact path='/about' component={About} />
             <Route exact path='/skills' component={Skills} />
             <Route exact path='/projects' component={Projects} />
             <Route exact path='/contact' component={Contact} />
+            <Redirect to='/' />
          </Switch>
       </Router>
    );
