@@ -1,9 +1,4 @@
-import {
-   HashRouter,
-   Redirect,
-   Route,
-   Switch,
-} from 'react-router-dom';
+import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -21,7 +16,7 @@ import { ViewportProvider } from './hooks/useViewport';
 
 const App = () => {
    return (
-      <HashRouter basename='https://carlosgrj.github.io/CarlosRojas'>
+      <BrowserRouter>
          <ToastContainer />
          <MyNavbar />
          <Background />
@@ -36,7 +31,7 @@ const App = () => {
             <Route exact path='/contact' component={Contact} />
             <Redirect to='/' />
          </Switch>
-      </HashRouter>
+      </BrowserRouter>
    );
 };
 
