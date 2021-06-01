@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
+import {
+   BrowserRouter as Router,
+   Redirect,
+   Route,
+   Switch,
+} from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -16,7 +21,7 @@ import { ViewportProvider } from './hooks/useViewport';
 
 const App = () => {
    return (
-      <Router>
+      <Router basename='/CarlosRojas'>
          <ToastContainer />
          <MyNavbar />
          <Background />
