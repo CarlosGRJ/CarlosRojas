@@ -16,7 +16,7 @@ import { ViewportProvider } from './hooks/useViewport';
 
 const App = () => {
    return (
-      <Router basename="/CarlosRojas">
+      <Router>
          <ToastContainer />
          <MyNavbar />
          <Background />
