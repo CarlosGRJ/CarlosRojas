@@ -1,5 +1,5 @@
 import {
-   BrowserRouter,
+   HashRouter,
    Redirect,
    Route,
    Switch,
@@ -21,7 +21,7 @@ import { ViewportProvider } from './hooks/useViewport';
 
 const App = () => {
    return (
-      <BrowserRouter basename='/CarlosRojas'>
+      <HashRouter basename='https://carlosgrj.github.io/CarlosRojas'>
          <ToastContainer />
          <MyNavbar />
          <Background />
@@ -36,7 +36,7 @@ const App = () => {
             <Route exact path='/contact' component={Contact} />
             <Redirect to='/' />
          </Switch>
-      </BrowserRouter>
+      </HashRouter>
    );
 };
 

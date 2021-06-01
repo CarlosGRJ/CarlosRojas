@@ -14,7 +14,7 @@ let timelineElements = [
       location: 'Dragontail, Ascana',
       description:
          'Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.',
-      tecnologies: ['React', 'NodeJS', 'MongoDB', 'Express'],
+      tecnologies: ['React', 'NodeJS', 'MongoDB', 'Express', 'Stripe'],
       image: HotelBook,
       buttonText: 'View Frontend Projects',
       date: 'August 2016 - present',
