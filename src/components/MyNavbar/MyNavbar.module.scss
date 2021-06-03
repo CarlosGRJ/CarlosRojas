@@ -30,7 +30,7 @@
 
    &__item {
       width: 100%;
-      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
       &:last-child {
          margin-top: auto;
@@ -58,12 +58,23 @@
          color: $text-secondary;
       }
 
+      // & .active {
+      //    color: $color-primary;
+      //    background-color: red;
+      // }
+
       & svg {
          width: 3rem;
          min-width: 4rem;
          margin: 0 1.5rem;
       }
    }
+}
+
+.active {
+   filter: grayscale(0%) opacity(1);
+   // background: $bg-secondary-nav;
+   color: $text-secondary;
 }
 
 .link-text {
@@ -81,10 +92,10 @@
 }
 
 .fa-primary {
-   color: #ff7eee;
+   color: $color-blue;
 }
 .fa-secondary {
-   color: #df49a6;
+   color: $color-blue;
 }
 
 .fa-primary,
@@ -133,4 +144,3 @@
       justify-content: center;
    }
 }
-

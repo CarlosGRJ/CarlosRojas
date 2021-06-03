@@ -6,8 +6,40 @@ import FaceRec from '../../assets/img/projects/face-recognition.png';
 import Natours from '../../assets/img/projects/natours.png';
 import Trillo from '../../assets/img/projects/trillo.webp';
 import HotelBook from '../../assets/img/projects/hotel-book.webp';
+import Barbering from '../../assets/img/projects/barbering.png';
+import BarberingBlue from '../../assets/img/projects/barbering-blue.png';
 
 let timelineElements = [
+   {
+      id: 10,
+      title: 'Barbering Blue',
+      location: 'Dragontail, Ascana',
+      description:
+         'Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.',
+      tecnologies: ['Angular', 'NodeJS', 'MongoDB', 'Express'],
+      image: BarberingBlue,
+      buttonText: 'View Frontend Projects',
+      date: 'August 2016 - present',
+      icon: 'work',
+      url: 'https://cdmx.barbering.com.mx/cita-sucursal/5ef508aed9a43556a0f23fc8',
+      front: '',
+      back: '',
+   },
+   {
+      id: 9,
+      title: 'Barbering',
+      location: 'Dragontail, Ascana',
+      description:
+         'Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.',
+      tecnologies: ['Angular', 'NodeJS', 'MongoDB', 'Express'],
+      image: Barbering,
+      buttonText: 'View Frontend Projects',
+      date: 'August 2016 - present',
+      icon: 'work',
+      url: 'https://cdmxadmin.barbering.com.mx',
+      front: '',
+      back: '',
+   },
    {
       id: 8,
       title: 'Hotel Booking',

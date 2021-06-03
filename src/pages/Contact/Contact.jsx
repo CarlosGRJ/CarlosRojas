@@ -49,71 +49,81 @@ export const Contact = () => {
    };
 
    return (
+      <>
+      <br />
       <div className={`${classes.contact} animate__animated animate__fadeIn`}>
+         
          {/* <h1>Contact</h1> */}
          <Card className={classes.card}>
             {/* <div className={classes['contact-box']}> */}
-               <div className={classes.contact__left}>
-                  <IconContactMe classes={classes} />
-               </div>
-               <div className={classes.contact__right}>
-                  <h2>Contact Me</h2>
+            <div className={classes.contact__left}>
+               <IconContactMe classes={classes} />
+            </div>
+            <div className={classes.contact__right}>
+               <h2>Contact Me</h2>
 
-                  <form onSubmit={handleSubmit}>
-                     <div className={classes.form__group}>
-                        <input
-                           type='text'
-                           placeholder='Name'
-                           className={classes.form__input}
-                           id='name'
-                           autoComplete='off'
-                           name='name'
-                           value={name}
-                           onChange={handleInputChange}
-                        />
-                        <label hmtlfor='name' className={classes.form__label}>
-                           Name
-                        </label>
-                     </div>
+               <form onSubmit={handleSubmit}>
+                  <div className={classes.form__group}>
+                     <input
+                        type='text'
+                        placeholder='Name'
+                        className={classes.form__input}
+                        id='name'
+                        autoComplete='off'
+                        name='name'
+                        value={name}
+                        onChange={handleInputChange}
+                     />
+                     <label hmtlfor='name' className={classes.form__label}>
+                        Name
+                     </label>
+                  </div>
 
-                     <div className={classes.form__group}>
-                        <input
-                           type='email'
-                           className={classes.form__input}
-                           placeholder='Email'
-                           id='email'
-                           required
-                           autoComplete='off'
-                           name='email'
-                           value={email}
-                           onChange={handleInputChange}
-                        />
-                        <label hmtlfor='email' className={classes.form__label}>
-                           Email
-                        </label>
-                     </div>
+                  <div className={classes.form__group}>
+                     <input
+                        type='email'
+                        className={classes.form__input}
+                        placeholder='Email'
+                        id='email'
+                        required
+                        autoComplete='off'
+                        name='email'
+                        value={email}
+                        onChange={handleInputChange}
+                     />
+                     <label hmtlfor='email' className={classes.form__label}>
+                        Email
+                     </label>
+                  </div>
 
-                     <div className={classes.form__group}>
-                        <textarea
-                           placeholder='Message'
-                           className={classes.form__input}
-                           name='message'
-                           value={message}
-                           onChange={handleInputChange}></textarea>
-                     </div>
+                  <div className={classes.form__group}>
+                     <textarea
+                        placeholder='Message'
+                        className={classes.form__input}
+                        name='message'
+                        value={message}
+                        onChange={handleInputChange}></textarea>
+                     <label hmtlfor='email' className={classes.form__label}>
+                        Message
+                     </label>
+                  </div>
 
-                     <div>
-                        <Button className={classes.form__button} disabled={!formIsValid} type='submit'>
-                           Send
-                        </Button>
-                        {/* <button disabled={!formIsValid} type='submit'>
+                  <div>
+                     <Button
+                        className={classes.form__button}
+                        disabled={!formIsValid}
+                        type='submit'>
+                        Send
+                     </Button>
+                     {/* <button disabled={!formIsValid} type='submit'>
                      Send
                   </button> */}
-                     </div>
-                  </form>
-               </div>
+                  </div>
+               </form>
+            </div>
             {/* </div> */}
          </Card>
       </div>
+      </>
    );
 };

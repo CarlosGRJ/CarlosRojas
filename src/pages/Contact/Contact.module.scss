@@ -17,7 +17,7 @@
 
    .card {
       // position: relative;
-      margin-top: 8rem;
+      margin-top: 2rem;
       width: 65%;
       // height: 100%;
       display: grid;
@@ -26,6 +26,7 @@
       // box-shadow: 0 0 1.9rem 0.5rem rgba(0, 0, 0, 0.19);
       @include respond(tab-port) {
          width: 75%;
+         // margin-top: 8rem;
          grid-template-columns: repeat(1, 1fr);
          height: 75rem;
       }
@@ -54,6 +55,12 @@
          position: relative;
          padding: 0 0 10px;
          margin-bottom: 10px;
+         font-size: 3rem;
+         letter-spacing: 0.25rem;
+
+         @include respond(tab-port) {
+            margin-left: 2rem;
+         }
       }
    }
 }
@@ -66,7 +73,9 @@
    &__input {
       font-size: 1.5rem;
       font-family: inherit;
-      color: inherit;
+      letter-spacing: 0.1rem;
+      // color: inherit;
+      color: #000;
       padding: 1.5rem 2rem;
       border-radius: 2px;
       background-color: rgba($color-white, 0.5);
@@ -76,6 +85,11 @@
       width: 100%;
       display: block;
       transition: all 0.3s;
+
+      @include respond(tab-port) {
+         font-size: 1.8rem;
+         border-radius: 3rem;
+      }
 
       @include respond(phone) {
          width: 100%;
@@ -97,12 +111,17 @@
    }
 
    &__label {
-      font-size: 1.2rem;
-      font-weight: 700;
+      font-size: 1.4rem;
+      letter-spacing: 0.2rem;
+      // font-weight: 500;
       margin-left: 2rem;
       margin-top: 0.7rem;
       display: block;
       transition: all 0.3s;
+
+      @include respond(tab-port) {
+         font-size: 1.8rem;
+      }
    }
 
    &__input:placeholder-shown + &__label {
@@ -114,8 +133,13 @@
    &__button {
       width: 100%;
       color: #4f4f4f;
-      margin-top: 1rem;
+      // margin-top: 1rem;
       border-radius: 1rem;
+
+      @include respond(tab-port) {
+         font-size: 1.8rem;
+         border-radius: 3rem;
+      }
    }
 }
 

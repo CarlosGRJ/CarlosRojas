@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { IconAbout } from '../../iconsNavBar/IconAbout';
 import { IconContact } from '../../iconsNavBar/IconContact';
 // import { IconExperience } from '../../iconsNavBar/IconExperience';
@@ -14,7 +14,9 @@ export const MyNavbar = () => {
       <nav className={classes.nav}>
          <ul className={classes.nav__links}>
             <li className={classes.logo}>
-               <a href='#home' className={classes.nav__link}>
+               <a
+                  href='#home'
+                  className={classes.nav__link}>
                   <span className={`${classes['link-text']}`}>Menu</span>
                   <svg
                      aria-hidden='true'
@@ -43,44 +45,59 @@ export const MyNavbar = () => {
                </a>
             </li>
             <li className={classes.nav__item}>
-               <Link to='/' className={classes.nav__link}>
+               <NavLink
+                  to='/home'
+                  className={classes.nav__link}
+                  activeClassName={classes.active}>
                   <IconHome className={classes['nav__link-icon']} />
                   <span className={classes['link-text']}>Home</span>
-               </Link>
+               </NavLink>
             </li>
             <li className={classes.nav__item}>
-               <Link to='/about' className={classes.nav__link}>
+               <NavLink
+                  to='/about'
+                  className={classes.nav__link}
+                  activeClassName={classes.active}>
                   <IconAbout />
                   <span className={classes['link-text']}>About</span>
-               </Link>
+               </NavLink>
             </li>
 
             <li className={classes.nav__item}>
-               <Link to='/skills' className={classes.nav__link}>
+               <NavLink
+                  to='/skills'
+                  className={classes.nav__link}
+                  activeClassName={classes.active}>
                   <IconSkills />
                   <span className={classes['link-text']}>Skills</span>
-               </Link>
+               </NavLink>
             </li>
 
             {/* <li className={classes.nav__item}>
-               <Link to='/experience' className={classes.nav__link}>
+               <NavLink to='/experience' className={classes.nav__link} activeClassName={classes.active}>
                   <IconExperience />
                   <span className={classes['link-text']}>Experience</span>
-               </Link>
+               </NavLink>
             </li> */}
 
             <li className={classes.nav__item}>
-               <Link to='/projects' className={classes.nav__link}>
+               <NavLink
+                  to='/projects'
+                  className={classes.nav__link}
+                  activeClassName={classes.active}>
                   <IconProjects />
                   <span className={classes['link-text']}>Projects</span>
-               </Link>
+               </NavLink>
             </li>
 
             <li className={classes.nav__item} id='themeButton'>
-               <Link to='/contact' className={classes.nav__link}>
+               <NavLink
+                  to='/contact'
+                  className={classes.nav__link}
+                  activeClassName={classes.active}>
                   <IconContact />
                   <span className={classes['link-text']}>Contact me</span>
-               </Link>
+               </NavLink>
             </li>
          </ul>
       </nav>
@@ -88,7 +105,7 @@ export const MyNavbar = () => {
       //    <nav className='nav'>
       //       <ul className='nav__links'>
       //          <li className={classes.nav__item}>
-      //             <a href='#home' className={classes.nav__link}>
+      //             <a href='#home' className={classes.nav__link} activeClassName={classes.active}>
       //                <IconHome className='nav__link-icon' />
       //                <span>Home</span>
       //             </a>

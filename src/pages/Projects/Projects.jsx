@@ -47,16 +47,16 @@ export const Projects = () => {
                         className={`${classes.buttonEx} ${classes.viewButton}`}
                         rel='noopener noreferrer'>
                         {/* {el.buttonText} */}
-                        View
+                        <i className="fas fa-eye"></i>
                      </a>
                      {el.front.length > 0 ? (
                         <a
                            href={el.front}
                            target='_blank'
-                           className={`${classes.buttonEx} ${classes.repButton}`}
+                           className={`${classes.buttonEx} ${classes.repButton} ${classes.front}`}
                            rel='noopener noreferrer'>
                            {/* {el.buttonText} */}
-                           Front Rep
+                           Front <i className="fab fa-github"></i>
                         </a>
                      ) : (
                         ''
@@ -66,10 +66,10 @@ export const Projects = () => {
                         <a
                            href={el.repo}
                            target='_blank'
-                           className={`${classes.buttonEx} ${classes.repButton}`}
+                           className={`${classes.buttonEx} ${classes.repButton} ${classes.back}`}
                            rel='noopener noreferrer'>
                            {/* {el.buttonText} */}
-                           Back Rep
+                           Back <i className="fab fa-github"></i>
                         </a>
                      ) : (
                         ''

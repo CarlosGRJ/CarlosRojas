@@ -22,6 +22,7 @@
 
    & h2 {
       font-size: 4rem;
+      color: $color-primary;
       // margin-bottom: 4rem;
 
       @include respond(tab-port) {
@@ -72,7 +73,10 @@
             // width: 25rem;
             // width: auto;
             // margin-bottom: -25rem;
+            // margin-top: 3rem;
             width: 100%;
+            margin: 5rem 0;
+            // margin-bottom: 5rem;
             // height: 31rem;
          }
 
@@ -94,9 +98,12 @@
          // background-color: rgba(255, 166, 0, 0.486);
          font-size: 1.75rem;
          font-weight: 500;
+         letter-spacing: 0.2rem;
          // max-width: 100%;
          // height: auto;
          @include respond(tab-port) {
+            font-size: 2rem;
+            
             // background-color: rgba(192, 192, 192, 0.582);
             // max-height: 50rem;
             // height: 47rem;

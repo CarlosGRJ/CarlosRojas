@@ -7,6 +7,7 @@ export const About = () => {
    return (
       <div className={`${classes.about}  animate__animated animate__fadeIn`}>
          <h2>About Me</h2>
+         <br />
          <div className={classes.about__content}>
             <div
                className={`${classes['about__content-img']}  animate__animated animate__fadeInLeft`}>

@@ -17,8 +17,9 @@ $default-font-size: 1.6rem;
 
 $text-primary: #b6b6b6;
 $text-secondary: #ec7819;
-$bg-primary-nav: #1F2124;
-$bg-secondary-nav: #141418;
+
+$bg-primary-nav: #1f212400;
+$bg-secondary-nav: #14141800;
 
 $color-linkedin: rgba(10, 102, 194, 0.6);
 $color-google: rgba(197, 33, 31, 0.6);
@@ -28,3 +29,9 @@ $color-resume: rgba(44, 151, 74, 0.6);
 $transition-speed: 600ms;
 
 $line: 1px solid $color-grey-light-2;
+
+$color-blue: #3895B2;
+$color-blue-light: #40a7c7;
+
+$color-back: rgba(36, 41, 46, 0.74);
+$color-back-light: rgba(36, 41, 46, 0.651);
