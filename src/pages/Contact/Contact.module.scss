@@ -211,4 +211,8 @@
 
 .fontToast {
    font-size: 2rem ;
+
+   @include respond(tab-port) {
+      width: 100%;
+   }
 }
