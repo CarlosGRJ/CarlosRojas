@@ -38,7 +38,9 @@ export const Contact = () => {
          .then(
             (res) => {
                console.log('RES', res);
-               toast.success('Email sent! 😉');
+               toast.success('Email sent!', {
+                  className: `${classes.fontToast}`
+               });
             },
             (error) => {
                console.log(error);

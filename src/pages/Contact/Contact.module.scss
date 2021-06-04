@@ -5,6 +5,7 @@
    justify-content: center;
    align-items: center;
    height: 100vh;
+   font-size: 3rem;
 
    @include respond(tab-port) {
       // height: 110rem;
@@ -205,4 +206,9 @@
    100% {
       opacity: 1;
    }
+}
+
+
+.fontToast {
+   font-size: 2rem ;
 }
