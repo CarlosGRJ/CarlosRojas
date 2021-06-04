@@ -14,7 +14,7 @@ export const SocialNavPhone = () => {
             backgroundColor: '#ec7819c2',
          }}
          style={{
-            bottom: '8rem',
+            bottom: '6rem',
             right: '0',
             WebkitTapHighlightColor: 'rgba(0,0,0,0)'
          }}

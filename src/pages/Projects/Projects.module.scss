@@ -7,10 +7,10 @@
 
    @include respond(tab-port) {
       padding-inline: 8rem;
-      // height: 90vh;
-      // height: 62rem;
-      height: -webkit-fill-available;
       height: 90vh;
+      // height: 62rem;
+      min-height: 90vh;
+      min-height: -webkit-fill-available;
       // background-color: purple;
       overflow: hidden;
       overflow-y: auto;
