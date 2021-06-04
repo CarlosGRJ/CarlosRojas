@@ -58,7 +58,7 @@ export const SocialNavPhone = () => {
          <div className={`${classes.resume}`}>
             <a
                className={`${classes['socialSide-link']}`}
-               href='https://drive.google.com/file/d/1meusbuCMaowiJd7A-Nu7ZCTtPOdO1z8a/view'
+               href='https://drive.google.com/file/d/1soRz_0-8_WRL4uUgzO-CUYYDIWyJl177/view?usp=sharing'
                target='_blank'
                rel='noopener noreferrer'>
                <p>
