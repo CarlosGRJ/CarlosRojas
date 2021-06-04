@@ -27,7 +27,7 @@
       // background-color: orange;
       // box-shadow: 0 0 1.9rem 0.5rem rgba(0, 0, 0, 0.19);
       @include respond(tab-port) {
-         width: 100%;
+         width: 90%;
          // padding: 0 10%;
          // margin-top: 8rem;
          grid-template-columns: repeat(1, 1fr);
