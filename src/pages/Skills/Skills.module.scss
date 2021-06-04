@@ -15,8 +15,10 @@
 
    @include respond(tab-port) {
       // height: 110rem;
-      height: 89vh;
-      overflow-y: auto;
+      // height: 89vh;
+      // overflow-y: auto;
+      height: 120rem;
+      justify-content: flex-start;
       // margin: 1rem 1rem;
       // background-color: purple;
    }
@@ -41,7 +43,7 @@
       padding: 2% 15%;
       // margin: 10% 0; 
       grid-template-columns: repeat(1, 1fr);
-      overflow-y: scroll;
+      // overflow-y: scroll;
       // z-index: -1;
       // background-color: rgb(107, 24, 24);
    }
