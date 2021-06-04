@@ -8,6 +8,10 @@
    height: 100vh;
    z-index: 1000;
 
+   @include respond(tab-port) {
+      background-color: #383A3F;
+   }
+
    &:hover {
       width: 18rem;
 

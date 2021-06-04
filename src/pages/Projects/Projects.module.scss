@@ -5,20 +5,21 @@
    color: #2f2f2f;
    padding-inline: 10rem;
 
-   min-height: -moz-available; /* WebKit-based browsers will ignore this. */
-   min-height: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
-   min-height: fill-available;
+   // min-height: -moz-available; /* WebKit-based browsers will ignore this. */
+   // min-height: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+   // min-height: fill-available;
 
    @include respond(tab-port) {
       padding-inline: 8rem;
       height: 90vh;
       // height: 62rem;
       min-height: 90vh;
-      min-height: -webkit-fill-available;
+      // min-height: -webkit-fill-available;
       // background-color: purple;
-      overflow: hidden;
-      overflow-y: auto;
+      // overflow: hidden;
+      // overflow-y: auto;
       // height: 110rem;
+      overflow-x: hidden;
    }
    @include respond(phone) {
       padding-inline: 2rem;
