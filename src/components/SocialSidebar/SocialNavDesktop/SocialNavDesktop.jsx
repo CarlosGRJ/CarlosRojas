@@ -1,6 +1,5 @@
 import React from 'react';
 
-// import classes from '../../../assets/scss/styles.module.scss';
 import classes from './SocialNavDesktop.module.scss';
 
 export const SocialNavDesktop = () => {
