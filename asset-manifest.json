@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.86596520.chunk.css",
+    "main.css": "./static/css/main.86bf21a6.chunk.css",
     "main.js": "./static/js/main.344c70d0.chunk.js",
     "main.js.map": "./static/js/main.344c70d0.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.b5661697.js",
@@ -12,7 +12,7 @@
     "static/js/3.c1232390.chunk.js.map": "./static/js/3.c1232390.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.5f703867.chunk.css.map": "./static/css/2.5f703867.chunk.css.map",
-    "static/css/main.86596520.chunk.css.map": "./static/css/main.86596520.chunk.css.map",
+    "static/css/main.86bf21a6.chunk.css.map": "./static/css/main.86bf21a6.chunk.css.map",
     "static/js/2.7170315d.chunk.js.LICENSE.txt": "./static/js/2.7170315d.chunk.js.LICENSE.txt",
     "static/media/adminpro.2f05a463.png": "./static/media/adminpro.2f05a463.png",
     "static/media/barbering-blue.0b62ab97.png": "./static/media/barbering-blue.0b62ab97.png",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.b5661697.js",
     "static/css/2.5f703867.chunk.css",
     "static/js/2.7170315d.chunk.js",
-    "static/css/main.86596520.chunk.css",
+    "static/css/main.86bf21a6.chunk.css",
     "static/js/main.344c70d0.chunk.js"
   ]
 }
