@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../../components/UI/Card/Card';
+import CardSkills from '../../components/UI/CardSkills/CardSkills';
 import { IconAngular } from '../../iconsSkills/IconAngular';
 import { IconBoot } from '../../iconsSkills/IconBoot';
 import { IconCss } from '../../iconsSkills/IconCss';
@@ -22,7 +22,7 @@ export const Skills = () => {
       <div className={classes['skills-section']}>
          {/* <h2>Skills</h2> */}
          <div className={classes.skills}>
-            <Card className='animate__animated animate__fadeInDown'>
+            <CardSkills className='animate__animated animate__fadeInDown'>
                <div className={`${classes.skills__left}`}>
                   <h2>SKILLS</h2>
                   <ul className={classes.list}>
@@ -63,8 +63,8 @@ export const Skills = () => {
                      </li>
                   </ul>
                </div>
-            </Card>
-            <Card
+            </CardSkills>
+            <CardSkills
                className={`animate__animated animate__fadeInUp ${classes.skills__right}`}>
                <div>
                   <h2>LEARNING</h2>
@@ -80,7 +80,7 @@ export const Skills = () => {
                      </li>
                   </ul>
                </div>
-            </Card>
+            </CardSkills>
          </div>
       </div>
    );
