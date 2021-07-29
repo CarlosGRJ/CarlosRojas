@@ -12,6 +12,8 @@ import { IconNode } from '../../iconsSkills/IconNode';
 import { IconReact } from '../../iconsSkills/IconReact';
 import { IconReactNative } from '../../iconsSkills/IconReactNative';
 import { IconSass } from '../../iconsSkills/IconSass';
+import { IconAWS } from '../../iconsSkills/IconAWS';
+import IconTypes from '../../iconsSkills/IconTypes';
 
 import classes from './Skills.module.scss';
 
@@ -45,6 +47,9 @@ export const Skills = () => {
                      <li className={classes.list__item}>
                         <IconAngular /> Angular
                      </li>
+                     <li className={classes.list__item}>
+                        <IconTypes /> TypeScript
+                     </li>
 
                      {/* Prueba */}
                      <li className={classes.list__item}>
@@ -52,6 +57,9 @@ export const Skills = () => {
                      </li>
                      <li className={classes.list__item}>
                         <IconMongo /> MongoDB
+                     </li>
+                     <li className={classes.list__item}>
+                        <IconMySql /> MySQL
                      </li>
                   </ul>
                </div>
@@ -68,7 +76,7 @@ export const Skills = () => {
                         <IconGraphQL /> GraphQL
                      </li>
                      <li className={classes.list__item}>
-                        <IconMySql /> MySQL
+                        <IconAWS /> AWS
                      </li>
                   </ul>
                </div>

@@ -8,8 +8,42 @@ import Trillo from '../../assets/img/projects/trillo.webp';
 import HotelBook from '../../assets/img/projects/hotel-book.webp';
 import Barbering from '../../assets/img/projects/barbering.png';
 import BarberingBlue from '../../assets/img/projects/barbering-blue.png';
+import MernEcom from '../../assets/img/projects/mern_ecom.png';
+import WhatsApp from '../../assets/img/projects/whatsapp.png';
 
 let timelineElements = [
+   {
+      id: 12,
+      title: 'MERN - Ecommerce',
+      location: 'Dragontail, Ascana',
+      description:
+         'Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.',
+      tecnologies: ['React', 'NodeJS', 'MongoDB', 'Express'],
+      deployed: ['Digital Ocean'],
+      image: MernEcom,
+      buttonText: 'View Frontend Projects',
+      date: 'August 2016 - present',
+      icon: 'work',
+      url: 'http://147.182.193.131/',
+      front: 'https://github.com/CarlosGRJ/MERN_ecommerce_client',
+      back: 'https://github.com/CarlosGRJ/MERN_ecommerce_server',
+   },
+   {
+      id: 11,
+      title: 'Whats App QR',
+      location: 'Dragontail, Ascana',
+      description:
+         'Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.',
+      tecnologies: ['Angular', 'NodeJS', 'MongoDB', 'Express'],
+      deployed: ['Ionos', 'AWS EC2'],
+      image: WhatsApp,
+      buttonText: 'View Frontend Projects',
+      date: 'August 2016 - present',
+      icon: 'work',
+      url: 'https://whatsapp.tichsoluciones.com/login',
+      front: '',
+      back: '',
+   },
    {
       id: 10,
       title: 'Barbering Blue',
@@ -17,6 +51,7 @@ let timelineElements = [
       description:
          'Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.',
       tecnologies: ['Angular', 'NodeJS', 'MongoDB', 'Express'],
+      deployed: ['Ionos', 'AWS EC2'],
       image: BarberingBlue,
       buttonText: 'View Frontend Projects',
       date: 'August 2016 - present',
@@ -32,6 +67,7 @@ let timelineElements = [
       description:
          'Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.',
       tecnologies: ['Angular', 'NodeJS', 'MongoDB', 'Express'],
+      deployed: ['Ionos', 'AWS EC2'],
       image: Barbering,
       buttonText: 'View Frontend Projects',
       date: 'August 2016 - present',
@@ -47,6 +83,7 @@ let timelineElements = [
       description:
          'Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.',
       tecnologies: ['React', 'NodeJS', 'MongoDB', 'Express', 'Stripe'],
+      deployed: [''],
       image: HotelBook,
       buttonText: 'View Frontend Projects',
       date: 'August 2016 - present',
@@ -62,6 +99,7 @@ let timelineElements = [
       description:
          'Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.',
       tecnologies: ['HTML', 'CSS', 'SASS'],
+      deployed: ['Github Pages'],
       image: Trillo,
       buttonText: 'View Frontend Projects',
       date: 'August 2016 - present',
@@ -77,6 +115,7 @@ let timelineElements = [
       description:
          'Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.',
       tecnologies: ['HTML', 'CSS', 'SASS'],
+      deployed: ['Github Pages'],
       image: Natours,
       buttonText: 'View Frontend Projects',
       date: 'August 2016 - present',
@@ -92,6 +131,7 @@ let timelineElements = [
       description:
          'Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.',
       tecnologies: ['React', 'NodeJS', 'PostgreSQL'],
+      deployed: [''],
       image: FaceRec,
       buttonText: 'View Frontend Projects',
       date: 'August 2016 - present',
@@ -107,6 +147,7 @@ let timelineElements = [
       description:
          'Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.',
       tecnologies: ['Angular', 'NodeJS', 'MongoDB', 'Express'],
+      deployed: ['Heroku'],
       image: AdminPro,
       buttonText: 'View Backend Projects',
       date: 'June 2013 - August 2016',
@@ -122,6 +163,7 @@ let timelineElements = [
       description:
          'Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.',
       tecnologies: ['HTML', 'CSS', 'BOOTSTRAP', 'JQUERY'],
+      deployed: ['Github Pages'],
       image: HotelPort,
       buttonText: 'Company Website',
       date: 'September 2011 - June 2013',
@@ -137,6 +179,7 @@ let timelineElements = [
       description:
          'Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.',
       tecnologies: ['HTML', 'CSS', 'BOOTSTRAP', 'JQUERY'],
+      deployed: ['Github Pages'],
       image: BlogViaje,
       buttonText: 'Course Certificate',
       date: 'September 2011',
@@ -151,6 +194,7 @@ let timelineElements = [
       location: 'LOCATION',
       description: 'HTML, CSS, BOOTSTRAP, JQUERY',
       tecnologies: ['HTML', 'CSS', 'BOOTSTRAP', 'JQUERY'],
+      deployed: ['Github Pages'],
       image: Courses,
       alt: 'coursesWeb',
       buttonText: 'College Projects',

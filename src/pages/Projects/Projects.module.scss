@@ -24,6 +24,14 @@
    @include respond(phone) {
       padding-inline: 2rem;
    }
+
+   & .lists {
+      display: flex;
+      
+      & div {
+         margin-right: 3rem;
+      }
+   }
 }
 
 .title {

@@ -2,4 +2,7 @@
   background: rgba(99, 96, 96, 0.473);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   border-radius: 10px;
+  max-height: 90vh;
+  overflow: hidden;
+  overflow-y: auto;
 }

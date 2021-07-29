@@ -31,15 +31,30 @@ export const Projects = () => {
                      {el.title}
                   </h3>
                   <img className={classes.image} src={el.image} alt={el.alt} />
-                  <h5 className={classes.subtitle}>Tecnologies</h5>
-                  {/* <p id={classes.description}>{el.description}</p> */}
-                  <ul className={classes.list} id={classes.description}>
-                     {el.tecnologies.map((tec) => (
-                        <li key={tec} className={classes['list__item']}>
-                           {tec}
-                        </li>
-                     ))}
-                  </ul>
+                  <div className={classes.lists}>
+                     <div>
+                        <h5 className={classes.subtitle}>Tecnologies</h5>
+                        {/* <p id={classes.description}>{el.description}</p> */}
+                        <ul className={classes.list} id={classes.description}>
+                           {el.tecnologies.map((tec) => (
+                              <li key={tec} className={classes['list__item']}>
+                                 {tec}
+                              </li>
+                           ))}
+                        </ul>
+                     </div>
+                     <div>
+                        <h5 className={classes.subtitle}>Deployed</h5>
+                        {/* <p id={classes.description}>{el.description}</p> */}
+                        <ul className={classes.list} id={classes.description}>
+                           {el.deployed.map((tec) => (
+                              <li key={tec} className={classes['list__item']}>
+                                 {tec}
+                              </li>
+                           ))}
+                        </ul>
+                     </div>
+                  </div>
                   <div className={classes.buttons}>
                      <a
                         href={el.url}
@@ -47,7 +62,7 @@ export const Projects = () => {
                         className={`${classes.buttonEx} ${classes.viewButton}`}
                         rel='noopener noreferrer'>
                         {/* {el.buttonText} */}
-                        <i className="fas fa-eye"></i>
+                        <i className='fas fa-eye'></i>
                      </a>
                      {el.front.length > 0 ? (
                         <a
@@ -56,7 +71,7 @@ export const Projects = () => {
                            className={`${classes.buttonEx} ${classes.repButton} ${classes.front}`}
                            rel='noopener noreferrer'>
                            {/* {el.buttonText} */}
-                           Front <i className="fab fa-github"></i>
+                           Front <i className='fab fa-github'></i>
                         </a>
                      ) : (
                         ''
@@ -64,12 +79,12 @@ export const Projects = () => {
 
                      {el.back.length > 0 ? (
                         <a
-                           href={el.repo}
+                           href={el.back}
                            target='_blank'
                            className={`${classes.buttonEx} ${classes.repButton} ${classes.back}`}
                            rel='noopener noreferrer'>
                            {/* {el.buttonText} */}
-                           Back <i className="fab fa-github"></i>
+                           Back <i className='fab fa-github'></i>
                         </a>
                      ) : (
                         ''
