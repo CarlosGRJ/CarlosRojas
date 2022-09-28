@@ -16,6 +16,7 @@ import { IconAWS } from '../../iconsSkills/IconAWS';
 import IconTypes from '../../iconsSkills/IconTypes';
 
 import classes from './Skills.module.scss';
+import IconPython from '../../iconsSkills/IconPython';
 
 export const Skills = () => {
    return (
@@ -69,6 +70,9 @@ export const Skills = () => {
                <div>
                   <h2>LEARNING</h2>
                   <ul className={classes.list}>
+                     <li className={classes.list__item}>
+                        <IconPython /> Python
+                     </li>
                      <li className={classes.list__item}>
                         <IconReactNative /> React Native
                      </li>

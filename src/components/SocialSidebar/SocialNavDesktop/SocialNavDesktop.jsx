@@ -41,7 +41,7 @@ export const SocialNavDesktop = () => {
          <div className={`${classes.socialSide__Resume} ${classes.social}`}>
             <a
                className={classes['socialSide-link']}
-               href='https://drive.google.com/file/d/1soRz_0-8_WRL4uUgzO-CUYYDIWyJl177/view?usp=sharing'
+               href='https://drive.google.com/file/d/1myxzPJFBtft_rEKEXvcSnN76gkPYQ1vO/view?usp=sharing'
                target='_blank'
                rel='noopener noreferrer'>
                <p>
